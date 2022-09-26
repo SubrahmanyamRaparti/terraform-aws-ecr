@@ -4,13 +4,10 @@ variable "ecr_name" {
   default     = null
 }
 
-variable "ecr_tag" {
+variable "ecr_tag_mutability" {
   description = "Tag immutability"
-  type        = map(string)
-  default = {
-    yes = "MUTABLE",
-    no  = "IMMUTABLE"
-  }
+  type        = string
+  default     = "IMMUTABLE"
 }
 
 variable "ecr_scan" {

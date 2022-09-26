@@ -1,1 +1,3 @@
-# terraform-aws-ecr
+# Terraform AWS ECR
+
+Elastic Container Registry module - DRY
